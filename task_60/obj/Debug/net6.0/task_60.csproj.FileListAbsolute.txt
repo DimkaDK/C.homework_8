@@ -1,0 +1,15 @@
+E:\обучение\C#\C.homework_8\task_60\bin\Debug\net6.0\task_60.exe
+E:\обучение\C#\C.homework_8\task_60\bin\Debug\net6.0\task_60.deps.json
+E:\обучение\C#\C.homework_8\task_60\bin\Debug\net6.0\task_60.runtimeconfig.json
+E:\обучение\C#\C.homework_8\task_60\bin\Debug\net6.0\task_60.dll
+E:\обучение\C#\C.homework_8\task_60\bin\Debug\net6.0\task_60.pdb
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.csproj.AssemblyReference.cache
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.GeneratedMSBuildEditorConfig.editorconfig
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.AssemblyInfoInputs.cache
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.AssemblyInfo.cs
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.csproj.CoreCompileInputs.cache
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.dll
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\refint\task_60.dll
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.pdb
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\task_60.genruntimeconfig.cache
+E:\обучение\C#\C.homework_8\task_60\obj\Debug\net6.0\ref\task_60.dll
