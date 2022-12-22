@@ -7,21 +7,21 @@
 
 Console.Clear();
 
-int EnterNumber(string message)                                                             // Метод получения числа от пользователя из консоли
+int EnterNumber(string message) // Метод получения числа от пользователя из консоли
 {
     Console.Write(message);
     int number = int.Parse(Console.ReadLine());
     return number;
 }
 
-void CreateSnailMatrix(int columns, int rows)                                              // Метод создания двухмерного массива и заполнения его улиткой
+void CreateSnailMatrix(int columns, int rows) // Метод создания двухмерного массива и заполнения его улиткой
 {
     int[,] matrix = new int[rows, columns];
     int counter = 1;
     int i = 0;
     int j = 0;
 
-    for (int k = 0; k < rows - 1; k++)
+    for (int k = 0; k < rows; k++)
     {
         for (j = k; j < columns - k; j++)
         {
@@ -33,10 +33,6 @@ void CreateSnailMatrix(int columns, int rows)                                   
         }
         j--;
 
-        PrintArray(matrix);
-        Console.WriteLine();
-
-
         for (i = k; i < rows - k; i++)
         {
             if (matrix[i, j] == 0)
@@ -46,11 +42,8 @@ void CreateSnailMatrix(int columns, int rows)                                   
             }
         }
         i--;
-        rows = rows - k;
-        PrintArray(matrix);
-        Console.WriteLine();
 
-        for (j = columns - 1; j > -1 + k; j--)
+        for (j = columns - 1 - k; j > k - 1; j--)
         {
             if (matrix[i, j] == 0)
             {
@@ -59,10 +52,8 @@ void CreateSnailMatrix(int columns, int rows)                                   
             }
         }
         j++;
-        PrintArray(matrix);
-        Console.WriteLine();
 
-        for (i = rows - 1; i > -1 + k; i--)
+        for (i = rows - 1 - k; i > k - 1; i--)
         {
             if (matrix[i, j] == 0)
             {
@@ -71,13 +62,11 @@ void CreateSnailMatrix(int columns, int rows)                                   
             }
         }
         i = i + 2;
-        PrintArray(matrix);
-        Console.WriteLine();
     }
     PrintArray(matrix);
 }
 
-void PrintArray(int[,] matrix)                                                               // Метод вывода двухмерного массива в консоль
+void PrintArray(int[,] matrix) // Метод вывода двухмерного массива в консоль
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
@@ -89,12 +78,10 @@ void PrintArray(int[,] matrix)                                                  
     }
 }
 
-
 // Получить от пользователя кол-во строк и столбцов для массива
 
-int columns = EnterNumber("введите число столбцов матрицы -  ");
-int rows = EnterNumber("введите число строк матрицы -  ");
+int columnsRows = EnterNumber("введите число столбцов и строк матрицы -  ");
 
 // Создать двухмерный массив и заполнить его
 
-CreateSnailMatrix(columns, rows);
+CreateSnailMatrix(columnsRows, columnsRows);

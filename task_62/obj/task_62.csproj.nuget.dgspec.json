@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\обучение\\C#\\C.homework_8\\task_62\\task_62.csproj": {}
+    "E:\\education\\C#\\C.homework_8\\task_62\\task_62.csproj": {}
   },
   "projects": {
-    "E:\\обучение\\C#\\C.homework_8\\task_62\\task_62.csproj": {
+    "E:\\education\\C#\\C.homework_8\\task_62\\task_62.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\обучение\\C#\\C.homework_8\\task_62\\task_62.csproj",
+        "projectUniqueName": "E:\\education\\C#\\C.homework_8\\task_62\\task_62.csproj",
         "projectName": "task_62",
-        "projectPath": "E:\\обучение\\C#\\C.homework_8\\task_62\\task_62.csproj",
-        "packagesPath": "C:\\Users\\Димко\\.nuget\\packages\\",
-        "outputPath": "E:\\обучение\\C#\\C.homework_8\\task_62\\obj\\",
+        "projectPath": "E:\\education\\C#\\C.homework_8\\task_62\\task_62.csproj",
+        "packagesPath": "C:\\Users\\dkoliverov\\.nuget\\packages\\",
+        "outputPath": "E:\\education\\C#\\C.homework_8\\task_62\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Димко\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dkoliverov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
